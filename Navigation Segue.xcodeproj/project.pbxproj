@@ -54,14 +54,46 @@
 		69A8861522BC0911005FFCB0 /* Navigation Segue */ = {
 			isa = PBXGroup;
 			children = (
-				69A8861622BC0911005FFCB0 /* AppDelegate.swift */,
-				69A8861822BC0911005FFCB0 /* ViewController.swift */,
-				69A8861A22BC0911005FFCB0 /* Main.storyboard */,
-				69A8861D22BC091A005FFCB0 /* Assets.xcassets */,
-				69A8861F22BC091A005FFCB0 /* LaunchScreen.storyboard */,
-				69A8862222BC091A005FFCB0 /* Info.plist */,
+				69A8862822BC0A14005FFCB0 /* App */,
+				69A8862B22BC0A4B005FFCB0 /* Resources */,
+				69A8862A22BC0A3C005FFCB0 /* Storybaords */,
+				69A8862922BC0A29005FFCB0 /* View Controller */,
 			);
 			path = "Navigation Segue";
+			sourceTree = "<group>";
+		};
+		69A8862822BC0A14005FFCB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				69A8861622BC0911005FFCB0 /* AppDelegate.swift */,
+				69A8862222BC091A005FFCB0 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		69A8862922BC0A29005FFCB0 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69A8861822BC0911005FFCB0 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		69A8862A22BC0A3C005FFCB0 /* Storybaords */ = {
+			isa = PBXGroup;
+			children = (
+				69A8861A22BC0911005FFCB0 /* Main.storyboard */,
+				69A8861F22BC091A005FFCB0 /* LaunchScreen.storyboard */,
+			);
+			path = Storybaords;
+			sourceTree = "<group>";
+		};
+		69A8862B22BC0A4B005FFCB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69A8861D22BC091A005FFCB0 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
-				INFOPLIST_FILE = "Navigation Segue/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Navigation Segue/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
-				INFOPLIST_FILE = "Navigation Segue/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Navigation Segue/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
